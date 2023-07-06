@@ -1,18 +1,10 @@
 import cart from "../img/cart.png";
+import '../css/cartWidget.css'
 
-const styles = {
-    img: {
-        height: "3rem",
-        width: "auto"
-    },
-    span:{
-        color: "white",
-        paddingLeft: "10px"
-    }
-}
+
 
 export const CartWidget = () =>(
 <>
-<img src={cart} style={styles.img} alt="carroCompras" /> <span style={styles.span}> 0 </span>
+<img className='cart-img' src={cart} alt='carroCompras' /> <span className='cart-span'> 0 </span>
 </>
 )

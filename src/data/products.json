@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "brand": "Adidas",
+    "name": "Remera adidas Training Train Essentials Feelready Hombre",
+    "category": "Remera",
+    "gender": "Hombre",
+    "price": 16000,
+    "color": "Azul",
+    "img": "https://http2.mlstatic.com/D_NQ_NP_848494-MLA70291011683_072023-O.webp"
+  }
+  ,
+  {
+    "id": 2,
+    "brand": "Adidas",
+    "name": "Remera adidas Training Train Essentials Base Hombre",
+    "category": "Remera",
+    "gender": "Hombre",
+    "price": 13000,
+    "color": "Celeste",
+    "img": "https://http2.mlstatic.com/D_NQ_NP_736394-MLA70268282714_072023-O.webp"
+  }
+  ,
+  {
+    "id": 3,
+    "brand": "Adidas",
+    "name": "Remera adidas Moda Essentials Ic9341 Hombre",
+    "category": "Remera",
+    "gender": "Hombre",
+    "price": 14000,
+    "color": "Bordo",
+    "img": "https://http2.mlstatic.com/D_NQ_NP_977445-MLA70291018233_072023-O.webp"
+  }
+  ,
+  {
+    "id": 4,
+    "brand": "Adidas",
+    "name": "Remera adidas Running Run It Mujer Az",
+    "category": "Remera",
+    "gender": "Mujer",
+    "price": 16000,
+    "color": "Azul",
+    "img": "https://http2.mlstatic.com/D_NQ_NP_797388-MLA70268269416_072023-O.webp"
+  }
+  ,
+  {
+    "id": 5,
+    "brand": "Adidas",
+    "name": "Remera adidas Moda Basic Badge Of Sport",
+    "category": "Remera",
+    "gender": "Mujer",
+    "price": 14000,
+    "color": "Negro",
+    "img": "https://http2.mlstatic.com/D_NQ_NP_719260-MLA70268234394_072023-O.webp"
+  }
+  ,
+  {
+    "id": 6,
+    "brand": "Adidas",
+    "name": "Remera adidas Training Designed 2 Move Sport",
+    "category": "Remera",
+    "gender": "Mujer",
+    "price": 12000,
+    "color": "Celeste",
+    "img": "https://http2.mlstatic.com/D_NQ_NP_638567-MLA70268250194_072023-O.webp"
+
+  }
+  ,
+  {
+    "id": 7,
+    "brand": "Adidas",
+    "name": "Pantalón adidas Running Own The Run Astro Hombre",
+    "category": "Pantalón",
+    "gender": "Hombre",
+    "price": 40000,
+    "color": "Negro",
+    "img": "https://http2.mlstatic.com/D_NQ_NP_635930-MLA70291034741_072023-O.webp"
+  }
+  ,
+  {
+    "id": 8,
+    "brand": "Adidas",
+    "name": "Pantalon Terrex adidas Sport 78",
+    "category": "Pantalón",
+    "gender": "Hombre",
+    "price": 36000,
+    "color": "Negro",
+    "img": "https://http2.mlstatic.com/D_NQ_NP_605096-MLA70150758094_062023-O.webp"
+  }
+  ,
+  {
+    "id": 9,
+    "brand": "Adidas",
+    "name": "Pantalon adidas Essentials 3 Tiras French Terry",
+    "category": "Pantalón",
+    "gender": "Mujer",
+    "price": 36000,
+    "color": "Gris",
+    "img": "https://http2.mlstatic.com/D_NQ_NP_911417-MLA69243670721_052023-O.webp"
+  }
+  ,
+  {
+    "id": 10,
+    "brand": "Adidas",
+    "name": "Pantalón Essentials 3 Tiras Felpa Francesa Piernas Anchas Ic",
+    "category": "Pantalón",
+    "gender": "Mujer",
+    "price": 36000,
+    "color": "Negro",
+    "img": "https://http2.mlstatic.com/D_NQ_NP_986728-MLA54364371805_032023-O.webp"
+  }
+]

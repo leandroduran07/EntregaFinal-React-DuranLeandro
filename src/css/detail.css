@@ -1,0 +1,55 @@
+.center-detail {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cont-detail {
+    display: flex;
+    margin-top: 5rem;
+}
+
+.cont-img {
+    height: 400px;
+    position: relative;
+    border: 1px solid rgb(200, 198, 198);
+    border-radius: 10px;
+}
+
+.cont-img:hover {
+    box-shadow: 4px 4px 8px rgba(200, 198, 198);
+    transform: scale(1.01);
+    transition: 1s;
+
+}
+
+.cont-img img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.cont-text{
+    text-align: center;
+}
+
+.detail-brand{
+    font-size: xx-large;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+.detail-name{
+    font-size: x-large;
+    font-style: italic;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+.detail-price{
+    font-size: xx-large;
+    font-style: italic;
+    font-weight: 500;
+    margin-bottom: 2rem;
+}

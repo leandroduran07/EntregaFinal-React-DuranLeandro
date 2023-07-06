@@ -1,0 +1,27 @@
+.Card-img {
+    height: 200px;
+    width: 100%;
+    object-fit: scale-down;
+}
+
+.Card-style:hover{
+    transform: scale(1.03);
+    transition: 0.6s;
+    filter: brightness(1.06);
+    box-shadow: 5px 5px 10px rgba(200, 198, 198);
+}
+
+
+.Card-style {
+    display: flex;
+    flex-direction: column;
+    height: 25rem;
+    width: 18rem;  
+    border-radius: 10px; 
+}
+
+.Card-List {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
