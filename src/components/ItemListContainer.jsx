@@ -1,9 +1,10 @@
 import { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import Container from 'react-bootstrap/Container';
-import data from '../data/products.json';
 import { ItemList } from '../components/ItemList';
-import '../css/card.css'
+import '../css/card.css';
+import { collection, getDocs } from "firebase/firestore";
+import { db } from "../firebase/config";
 
 export const ItemListContainer = (props) => {
 
@@ -12,21 +13,23 @@ export const ItemListContainer = (props) => {
     const { id } = useParams()
 
     useEffect(() => {
-        const promesa = new Promise((resolve, rejected) => {
-            setTimeout(() => {
-                resolve(data)
-            }, 2000)
-        })
-        promesa.then(result => {
-            if (id) {
-                setProducts(result.filter(products => products.category === id))
-            } else {
-                setProducts(result)
+        const productsCall = collection(db, "productos");
+        getDocs(productsCall)
+            .then((resp) => {
+                const allProducts = resp.docs.map((prod) => {
+                    return { ...prod.data(), id: prod.id };
+                });
 
-            }
-        })
-
-    }, [id])
+                if (id) {
+                    // Si hay una categoría seleccionada, filtramos los productos
+                    const filteredProducts = allProducts.filter(product => product.category === id);
+                    setProducts(filteredProducts);
+                } else {
+                    // Si no hay categoría seleccionada, mostramos todos los productos
+                    setProducts(allProducts);
+                }
+            });
+    }, [id]);
 
     return (
         <Container className='mt-4'>
@@ -35,7 +38,7 @@ export const ItemListContainer = (props) => {
                 {products.length === 0 ? (
                     <div>Loading...</div>
                 ) : (
-                    <ItemList  products={products} />
+                    <ItemList products={products} />
                 )}
             </div>
 

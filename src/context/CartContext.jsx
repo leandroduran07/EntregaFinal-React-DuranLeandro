@@ -8,22 +8,22 @@ const initialCart = JSON.parse(localStorage.getItem("cart")) || [];
 
 export const CartProvider = ({ children }) => {
 
-    const [cart, setCart] = useState([initialCart]);
+    const [cart, setCart] = useState(initialCart);
 
     const cartCount = () => {
-        return cart.reduce((acc, products) => acc + products.cantidad, 0)
-    }
+        return cart.reduce((acc, product) => acc + (product.cantidad || 0), 0);
+    };
 
     const totalPrice = () => {
-        return cart.reduce((acc, products) => acc + products.price * products.cantidad, 0)
-    }
+        return cart.reduce((acc, product) => acc + (product.price || 0) * (product.cantidad || 0), 0);
+    };
 
     const cleanCart = () => {
         setCart([]);
     }
 
     useEffect(() => {
-        localStorage.setItem("cart", JSON.stringify(cart))
+        localStorage.setItem("cart", JSON.stringify(cart));
     }, [cart]);
 
 
