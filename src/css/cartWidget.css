@@ -7,5 +7,10 @@
 
 .cart-span {
     color: white ;
-    padding-left: 10px;
+    margin-left: 2rem;
+    text-decoration: none;
+}
+
+.cart-deco{
+    text-decoration: none;
 }

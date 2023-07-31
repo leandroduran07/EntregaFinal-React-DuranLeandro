@@ -7,7 +7,8 @@
     "gender": "Hombre",
     "price": 16000,
     "color": "Azul",
-    "img": "https://http2.mlstatic.com/D_NQ_NP_848494-MLA70291011683_072023-O.webp"
+    "img": "https://http2.mlstatic.com/D_NQ_NP_848494-MLA70291011683_072023-O.webp",
+    "stock": 10
   }
   ,
   {
@@ -18,7 +19,8 @@
     "gender": "Hombre",
     "price": 13000,
     "color": "Celeste",
-    "img": "https://http2.mlstatic.com/D_NQ_NP_736394-MLA70268282714_072023-O.webp"
+    "img": "https://http2.mlstatic.com/D_NQ_NP_736394-MLA70268282714_072023-O.webp",
+    "stock": 10
   }
   ,
   {
@@ -29,7 +31,8 @@
     "gender": "Hombre",
     "price": 14000,
     "color": "Bordo",
-    "img": "https://http2.mlstatic.com/D_NQ_NP_977445-MLA70291018233_072023-O.webp"
+    "img": "https://http2.mlstatic.com/D_NQ_NP_977445-MLA70291018233_072023-O.webp",
+    "stock": 10
   }
   ,
   {
@@ -40,7 +43,8 @@
     "gender": "Mujer",
     "price": 16000,
     "color": "Azul",
-    "img": "https://http2.mlstatic.com/D_NQ_NP_797388-MLA70268269416_072023-O.webp"
+    "img": "https://http2.mlstatic.com/D_NQ_NP_797388-MLA70268269416_072023-O.webp",
+    "stock": 10
   }
   ,
   {
@@ -51,7 +55,8 @@
     "gender": "Mujer",
     "price": 14000,
     "color": "Negro",
-    "img": "https://http2.mlstatic.com/D_NQ_NP_719260-MLA70268234394_072023-O.webp"
+    "img": "https://http2.mlstatic.com/D_NQ_NP_719260-MLA70268234394_072023-O.webp",
+    "stock": 10
   }
   ,
   {
@@ -62,7 +67,8 @@
     "gender": "Mujer",
     "price": 12000,
     "color": "Celeste",
-    "img": "https://http2.mlstatic.com/D_NQ_NP_638567-MLA70268250194_072023-O.webp"
+    "img": "https://http2.mlstatic.com/D_NQ_NP_638567-MLA70268250194_072023-O.webp",
+    "stock": 10
 
   }
   ,
@@ -74,7 +80,8 @@
     "gender": "Hombre",
     "price": 40000,
     "color": "Negro",
-    "img": "https://http2.mlstatic.com/D_NQ_NP_635930-MLA70291034741_072023-O.webp"
+    "img": "https://http2.mlstatic.com/D_NQ_NP_635930-MLA70291034741_072023-O.webp",
+    "stock": 10
   }
   ,
   {
@@ -85,7 +92,8 @@
     "gender": "Hombre",
     "price": 36000,
     "color": "Negro",
-    "img": "https://http2.mlstatic.com/D_NQ_NP_605096-MLA70150758094_062023-O.webp"
+    "img": "https://http2.mlstatic.com/D_NQ_NP_605096-MLA70150758094_062023-O.webp",
+    "stock": 10
   }
   ,
   {
@@ -96,7 +104,8 @@
     "gender": "Mujer",
     "price": 36000,
     "color": "Gris",
-    "img": "https://http2.mlstatic.com/D_NQ_NP_911417-MLA69243670721_052023-O.webp"
+    "img": "https://http2.mlstatic.com/D_NQ_NP_911417-MLA69243670721_052023-O.webp",
+    "stock": 10
   }
   ,
   {
@@ -107,6 +116,7 @@
     "gender": "Mujer",
     "price": 36000,
     "color": "Negro",
-    "img": "https://http2.mlstatic.com/D_NQ_NP_986728-MLA54364371805_032023-O.webp"
+    "img": "https://http2.mlstatic.com/D_NQ_NP_986728-MLA54364371805_032023-O.webp",
+    "stock": 10
   }
 ]

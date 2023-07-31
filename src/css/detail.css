@@ -53,3 +53,54 @@
     font-weight: 500;
     margin-bottom: 2rem;
 }
+
+
+.item-count{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+}
+.item-count button{
+    background-color: rgb(33,37,41);
+    color: white;
+    cursor: pointer;
+    border: 0;
+    border-radius: 8px;
+    width: 4rem;
+    height: 2.5rem;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.item-count button:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+.add-cart{
+    margin-top: 1rem;
+    background-color: rgb(33,37,41);
+    color: white;
+    cursor: pointer;
+    border: 0;
+    border-radius: 8px;
+    width: auto;
+    height: auto;
+    padding: 0.5rem;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.add-cart:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+.item-display{
+    display: flex;
+    flex-direction: column;
+}

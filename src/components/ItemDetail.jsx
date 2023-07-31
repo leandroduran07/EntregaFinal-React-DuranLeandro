@@ -1,4 +1,5 @@
 import '../css/detail.css'
+import ItemCount from './ItemCount'
 
 export const ItemDetail = ({ product }) => {
     return (
@@ -10,6 +11,7 @@ export const ItemDetail = ({ product }) => {
                 <div className='detail-brand'>{product.brand}</div>
                 <div className='detail-name'>{product.name}</div>
                 <div className='detail-price'>${product.price}</div>
+                <ItemCount product={product} />
             </div>
             
         </div>
